@@ -1,0 +1,23 @@
+{
+  "name": "minestore",
+  "version": "1.0.0",
+  "description": "An open source solution to running a donation store for your Minecraft server.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ThatTonybo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThatTonybo/minestore.git"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}

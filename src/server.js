@@ -1,5 +1,6 @@
 const app = require('express')();
 const port = app.set('port', require('./config.json').port || 3000);
+require('./router')(app);
 
 app.set('view engine', 'ejs');
 app.use(require('helmet')());
